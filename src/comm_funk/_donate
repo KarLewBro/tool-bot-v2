@@ -1,0 +1,8 @@
+
+module.exports = {
+  run: async(client, msg, args) => {
+    msg.channel.send('Appreciated! <https://ko-fi.com/kraftmasterkarl>');
+  },
+  aliases: ['donate', 'dollars'],
+  description: 'Toss a coin to your witcher'
+}
